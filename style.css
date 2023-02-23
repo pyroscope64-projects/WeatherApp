@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+}
+.content {
+    color:white;
+    height:100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    gap:0.5em;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 49);
+}
+input {
+    text-align: center;
+    width:231px;
+    height:25px;
+    transition:.5s;
+}
+input:focus {
+    width:400px;
+    height:35px;
+}
+button {
+    width:115px;
+    height:35px;
+    transition:.5s;
+}
+button:hover {
+    width:231px;
+    height:45px;
+}
